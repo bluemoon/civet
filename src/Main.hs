@@ -17,4 +17,5 @@ main = do
   let inf = 1/0
   let env = DData negInf inf 0 0 128 (fromList [0 | _ <- [0..127]]) 0 0
   print env
-  print $ add 1.0 env
+  let e =  add 1.0 env
+  print $ add 2.0 env
