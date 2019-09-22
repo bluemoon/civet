@@ -5,7 +5,7 @@ import Data.Sequence
 data DData = DData 
     { dMin :: Double   -- Value min
     , dMax :: Double   -- Value max 
-    , dCount :: Double -- Total count in histogram
+    , dCount :: Int    -- Total count in histogram
     , dSum :: Double   -- Sum of values in histogram
     -- Store
     , dMaxBins :: Integer
